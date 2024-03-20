@@ -18,29 +18,55 @@ This project uses CMake for building. The minimum required version of CMake is 3
 
 To build the project, navigate to the project directory and run the following commands:
 
-bash\\
-mkdir build\\
-cd build\\
-cmake ..\\
+bash
+
+
+mkdir build
+
+
+cd build
+
+
+cmake ..
+
+
 make
 
 ## Running the Project
 To run the project, you need to start the server and the parent process. Here are the steps:
 
-Open a terminal and navigate to the directory containing the executables.\\
-Start the server by running the following command:\\
+Open a terminal and navigate to the directory containing the executables.
+
+
+Start the server by running the following command:
+
+
 ./PrimaryLikesServer
 
-Open a new terminal and navigate to the same directory.\\
-Start the parent process by running the following command:\\
+Open a new terminal and navigate to the same directory.
+
+
+Start the parent process by running the following command:
+
+
 ./ParentProcess
 
 ## Logs
 The server and the parent process write logs to files. Here are the details:
 
-The server writes logs to\\
-/tmp/PrimaryLikesLog.\\
-Each child process of the parent process writes logs to /tmp/LikesServerX, where X is the index of the child process.\\
-The parent process writes logs to\\
-/tmp/ParentProcessStatus.\\
+The server writes logs to
+
+
+/tmp/PrimaryLikesLog.
+
+
+Each child process of the parent process writes logs to /tmp/LikesServerX, where X is the index of the child process.
+
+
+The parent process writes logs to
+
+
+/tmp/ParentProcessStatus.
+
+
 You can view the logs by opening the log files in any text editor.
