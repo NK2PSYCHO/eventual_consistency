@@ -1,0 +1,1 @@
+/usr/bin/cc CMakeFiles/PrimaryLikesServer.dir/PrimaryLikesServer.c.o -o PrimaryLikesServer 
