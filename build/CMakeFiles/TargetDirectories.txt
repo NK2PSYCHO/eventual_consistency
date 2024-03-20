@@ -1,0 +1,4 @@
+/home/nk2psycho/eventual_consistency/build/CMakeFiles/PrimaryLikesServer.dir
+/home/nk2psycho/eventual_consistency/build/CMakeFiles/ParentProcess.dir
+/home/nk2psycho/eventual_consistency/build/CMakeFiles/edit_cache.dir
+/home/nk2psycho/eventual_consistency/build/CMakeFiles/rebuild_cache.dir
